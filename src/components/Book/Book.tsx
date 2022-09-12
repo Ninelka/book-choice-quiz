@@ -1,5 +1,5 @@
 import React from 'react'
-import IBook from '../../interfaces/book.interface';
+import {IBook} from '../../interfaces';
 
 function Book(props: IBook) {
     return (

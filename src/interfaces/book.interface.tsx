@@ -1,4 +1,4 @@
-export default interface IBook {
+export interface IBook {
     id?: number,
     title: string | undefined,
     author: string | undefined,

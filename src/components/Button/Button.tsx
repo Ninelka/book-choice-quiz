@@ -1,5 +1,5 @@
 import React from 'react'
-import IButton from '../../interfaces/button.interface';
+import {IButton} from '../../interfaces';
 
 function Button(props: IButton) {
     return (

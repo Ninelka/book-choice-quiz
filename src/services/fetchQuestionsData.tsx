@@ -1,5 +1,5 @@
 import { useState, useEffect } from 'react'
-import IQuestion from '../interfaces/question.interface'
+import {IQuestion} from '../interfaces'
 
 export const useFetchQuestionsData = (url: string) => {
     // const [questionsLoading, setQuestionsLoading] = useState<boolean>(true);

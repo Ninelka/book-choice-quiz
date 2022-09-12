@@ -1,5 +1,5 @@
 import { useState, useEffect } from 'react'
-import IBook from '../interfaces/book.interface';
+import {IBook, IQuestion} from "../interfaces";
 
 export const useFetchBooksData = (url: string) => {
     // const [booksLoading, setBooksLoading] = useState<boolean>(true);

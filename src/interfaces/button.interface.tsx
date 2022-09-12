@@ -1,4 +1,4 @@
-export default interface IButton {
+export interface IButton {
     title?: string,
     text?: string,
     nextStep?: number,

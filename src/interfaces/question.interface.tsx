@@ -1,6 +1,6 @@
-import IButton from "./button.interface";
+import {IButton} from "./button.interface";
 
-export default interface IQuestion {
+export interface IQuestion {
     id?: number,
     title?: string,
     buttons?: IButton[]
