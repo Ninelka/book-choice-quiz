@@ -1,9 +1,6 @@
-import React, { useEffect, useState } from 'react';
-import { useFetchQuestionsData } from "./services/fetchQuestionsData";
-import { useFetchBooksData } from "./services/fetchBooksData";
-import IButton from './interfaces/button.interface';
-import IBook from './interfaces/book.interface';
-import IQuestion from './interfaces/question.interface';
+import React, {useEffect, useState} from 'react';
+import {useFetchData} from "./services/useFetchData";
+import {IQuestion, IButton, IBook} from './interfaces/';
 
 import Button from './components/Button/Button';
 import Book from './components/Book/Book';
@@ -14,27 +11,23 @@ const App: React.FC = () => {
   const [target, setTarget] = useState<number>()
   const [book, setBook] = useState<IBook>()
 
-  const questionsData = useFetchQuestionsData('/data/questions.json')
-  const booksData = useFetchBooksData('/data/books.json')
+  const questionsData = useFetchData('/data/questions.json')
+  const booksData = useFetchData('/data/books.json')
 
   const findCurrentQuestion = (questions: IQuestion[], id: number) => {
     if (!questions || !id) {
       return;
     }
 
-    let question = questions?.find((question: IQuestion) => question.id === id)
-
-    return question;
+    return questions?.find((question: IQuestion) => question.id === id);
   }
 
-  const goToResult = (books: IBook[], id: number): IBook | undefined => {
+  const goToResult = (books: IBook[] | IQuestion[], id: number): IBook | undefined => {
     if (!books || !id) {
       return;
     }
 
-    let resultBooks = books?.find((book: IBook) => book.id === id);
-
-    return resultBooks;
+    return (books as any[]).find((book: IBook) => book.id === id);
   }
 
   const handleClick = (button: IButton) => {
@@ -71,13 +64,13 @@ const App: React.FC = () => {
   }, [target])
 
   return (
-    <div>
+    <>
       <h1>{currentQuestion?.title}</h1>
       {
         <Book
           title={book?.title}
           author={book?.author}
-        ></Book>
+        />
       }
       {currentQuestion?.buttons?.map((button, index) =>
         <Button
@@ -85,9 +78,9 @@ const App: React.FC = () => {
           title={button.title}
           text={button.text}
           clickEvent={() => handleClick(button)}
-        ></Button>
+        />
       )}
-    </div>
+    </>
   )
 }
 
