@@ -1,3 +1,4 @@
-export type { IQuestion } from './question.interface';
-export type { IButton } from './button.interface';
-export type { IBook } from './book.interface';
+export type { IQuestion } from './question';
+export type { IButton } from './button';
+export type { IBook } from './book';
+

@@ -1,4 +1,4 @@
-import {IButton} from "./button.interface";
+import {IButton} from "./button";
 
 export interface IQuestion {
     id?: number,
