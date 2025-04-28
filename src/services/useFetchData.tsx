@@ -1,5 +1,5 @@
 import { useState, useEffect } from 'react'
-import {IBook, IQuestion} from "../interfaces";
+import {IBook, IQuestion} from "../types";
 
 export const useFetchData = (url: string) => {
     const [data, setData] = useState<IBook[] | IQuestion[]>();

@@ -1,5 +1,4 @@
-import React from 'react'
-import {IBook} from "../../interfaces";
+import {IBook} from "../../types";
 
 export const Book = (props: IBook) => {
     const {id, author, title} = props;

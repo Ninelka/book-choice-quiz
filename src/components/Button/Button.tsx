@@ -1,5 +1,4 @@
-import React from 'react'
-import {IButton} from '../../interfaces';
+import {IButton} from '../../types';
 
 export const Button = (props: IButton) => {
     const { clickEvent, title, text } = props;
