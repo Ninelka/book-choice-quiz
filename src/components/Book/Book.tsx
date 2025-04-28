@@ -1,13 +1,14 @@
 import React from 'react'
 import {IBook} from "../../interfaces";
 
-function Book(props: IBook) {
+export const Book = (props: IBook) => {
+    const {id, author, title} = props;
+
     return (
         <div>
-            <h2>{props.author}</h2>
-            <p>{props.title}</p>
+            <img src={`/public/images/${id}.jpg`} alt="book_cover" />
+            <h2>{author}</h2>
+            <p>{title}</p>
         </div>
     )
 }
-
-export default Book;

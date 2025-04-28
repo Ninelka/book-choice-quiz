@@ -1,13 +1,13 @@
 import React from 'react'
 import {IButton} from '../../interfaces';
 
-function Button(props: IButton) {
+export const Button = (props: IButton) => {
+    const { clickEvent, title, text } = props;
+
     return (
-        <button onClick={props.clickEvent}>
-            {props.title}
-            {props.text}
+        <button onClick={clickEvent}>
+            {title}
+            {text}
         </button>
     )
 }
-
-export default Button;

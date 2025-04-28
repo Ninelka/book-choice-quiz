@@ -2,8 +2,8 @@ import React, {useEffect, useState} from 'react';
 import {useFetchData} from "./services/useFetchData";
 import {IQuestion, IButton, IBook} from './interfaces/';
 
-import Button from './components/Button/Button';
-import Book from './components/Book/Book';
+import { Button } from './components/Button/Button';
+import { Book } from './components/Book/Book';
 
 const App: React.FC = () => {
   const [currentQuestionId, setCurrentQuestionId] = useState<number>(1)
@@ -66,12 +66,13 @@ const App: React.FC = () => {
   return (
     <>
       <h1>{currentQuestion?.title}</h1>
-      {
-        <Book
-          title={book?.title}
-          author={book?.author}
-        />
-      }
+      {book && (
+          <Book
+              id={book.id}
+              title={book.title}
+              author={book.author}
+          />
+      )}
       {currentQuestion?.buttons?.map((button, index) =>
         <Button
           key={index}
