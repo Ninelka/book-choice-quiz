@@ -5,7 +5,7 @@ export const Book = (props: IBook) => {
 
     return (
         <div>
-            <img src={`/public/images/${id}.jpg`} alt="book_cover" />
+            <img className="cover" src={`/public/images/${id}.jpg`} alt="book_cover" />
             <h2>{author}</h2>
             <p>{title}</p>
         </div>

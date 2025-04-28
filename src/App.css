@@ -1,18 +1,7 @@
 @import "tailwindcss";
 
-.App-link {
-  color: #61dafb;
-}
+.cover {
+  @apply bg-no-repeat bg-center w-auto h-100;
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
-}
-
-button {
-  font-size: calc(10px + 2vmin);
+  background-image: url("../public/images/book-cover-placeholder.png");
 }
