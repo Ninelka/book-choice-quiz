@@ -1,6 +1,6 @@
 import React, {useEffect, useState} from 'react';
 import {useFetchData} from "./services/useFetchData";
-import {IQuestion, IButton, IBook} from './interfaces/';
+import {IQuestion, IButton, IBook} from './types';
 
 import { Button } from './components/Button/Button';
 import { Book } from './components/Book/Book';
