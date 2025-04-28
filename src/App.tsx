@@ -2,8 +2,8 @@ import React, {useEffect, useState} from 'react';
 import {useFetchData} from "./services/useFetchData";
 import {IQuestion, IButton, IBook} from './types';
 
-import { Button } from './components/Button.tsx';
 import { Book } from './components/Book.tsx';
+import {Question} from "./components/Question.tsx";
 
 const App: React.FC = () => {
   const [currentQuestionId, setCurrentQuestionId] = useState<number>(1)
@@ -64,24 +64,20 @@ const App: React.FC = () => {
   }, [target])
 
   return (
-    <>
-      <h1>{currentQuestion?.title}</h1>
-      {book && (
-          <Book
-              id={book.id}
-              title={book.title}
-              author={book.author}
-          />
-      )}
-      {currentQuestion?.buttons?.map((button, index) =>
-        <Button
-          key={index}
-          title={button.title}
-          text={button.text}
-          clickEvent={() => handleClick(button)}
-        />
-      )}
-    </>
+      <div className="flex items-center justify-center min-h-screen bg-gray-50 p-4">
+        <div className="flex flex-col items-center justify-center w-full max-w-md bg-white rounded-2xl shadow-xl p-6 relative overflow-hidden">
+          {book && (
+              <Book
+                  id={book.id}
+                  title={book.title}
+                  author={book.author}
+              />
+          )}
+          {(!book && currentQuestion) && (
+              <Question question={currentQuestion} onClick={handleClick} />
+          )}
+        </div>
+      </div>
   )
 }
 
