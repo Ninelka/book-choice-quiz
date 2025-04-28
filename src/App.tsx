@@ -12,7 +12,7 @@ const App: React.FC = () => {
   const [book, setBook] = useState<IBook>()
 
   const questionsData = useFetchData('/data/questions.json')
-  const booksData = useFetchData('/data/books.json')
+  const booksData = useFetchData('/data/books_ru.json')
 
   const findCurrentQuestion = (questions: IQuestion[], id: number) => {
     if (!questions || !id) {
