@@ -1,24 +1,18 @@
-import {IButton, IQuestion} from "../types";
+import {QuizNode} from "../types/quiz.ts";
 import {Button} from "./Button.tsx";
 
-interface QuestionProps {
-    question: IQuestion
-    onClick: (button: IButton) => void
+interface QuestionProps extends QuizNode {
+    onClick: (id: string) => void;
 }
 
-export const Question = ({ question, onClick }: QuestionProps) => {
+export const Question = ({ question, options, onClick }: QuestionProps) => {
     return (
         <>
-            <h2 className="text-xl font-semibold text-center mb-4">{question.title}</h2>
+            <h2 className="text-xl font-semibold mb-4">{question}</h2>
             <div className="flex flex-col gap-3">
-                {question?.buttons?.map((button, index) => (
-                    <Button
-                        key={index}
-                        title={button.title}
-                        text={button.text}
-                        clickEvent={() => onClick(button)}
-                    />
-                    ))}
+                {options?.map((option) => (
+                    <Button {...option} key={option.nextId} onClick={() => onClick(option.nextId)} />
+                ))}
             </div>
         </>
     )

@@ -1,11 +1,6 @@
 import React from "react";
+import {QuizOption} from "./quiz.ts";
 
-export interface IButton {
-    title?: string,
-    text?: string,
-    nextStep?: number,
-    target?: number,
-    nextStepEvent?: void,
-    clickEvent?: () => void,
-    onClick?: (e: React.MouseEvent<HTMLElement>) => void
+export interface IButton extends QuizOption {
+    onClick: (e: React.MouseEvent<HTMLElement>) => void
 }
