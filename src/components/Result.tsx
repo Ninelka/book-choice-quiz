@@ -1,24 +1,32 @@
-import {QuizResult} from "../types/quiz.ts";
-import {Button} from "./Button.tsx";
+import { QuizResult } from '../types'
+import { Button } from './Button.tsx'
 
 interface ResultProps {
-    id: string;
-    result: QuizResult;
-    onReset: () => void;
-    onClick: (id: string) => void;
+    id: string
+    result: QuizResult
+    onReset: () => void
+    onClick: (id: string) => void
 }
 
 export const Result = ({ id, result, onClick, onReset }: ResultProps) => {
-    const { title, author, options } = result;
+    const { title, author, options } = result
 
     return (
         <>
             <h2 className="text-xl font-bold mb-4">Результат:</h2>
-            <img className="cover" src={`/public/images/${id}.jpg`} alt={title} />
+            <img
+                className="cover"
+                src={`/public/images/${id}.jpg`}
+                alt={title}
+            />
             <h3 className="text-lg font-semibold">{title}</h3>
             <p className="mb-3">{author}</p>
             {options?.map((option) => (
-                <Button {...option} key={option.nextId} onClick={() => onClick(option.nextId)} />
+                <Button
+                    {...option}
+                    key={option.nextId}
+                    onClick={() => onClick(option.nextId)}
+                />
             ))}
             <button
                 onClick={onReset}
@@ -27,5 +35,5 @@ export const Result = ({ id, result, onClick, onReset }: ResultProps) => {
                 Пройти снова
             </button>
         </>
-    );
-};
+    )
+}

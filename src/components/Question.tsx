@@ -1,8 +1,8 @@
-import {QuizNode} from "../types/quiz.ts";
-import {Button} from "./Button.tsx";
+import { QuizNode } from '../types'
+import { Button } from './Button.tsx'
 
 interface QuestionProps extends QuizNode {
-    onClick: (id: string) => void;
+    onClick: (id: string) => void
 }
 
 export const Question = ({ question, options, onClick }: QuestionProps) => {
@@ -11,7 +11,11 @@ export const Question = ({ question, options, onClick }: QuestionProps) => {
             <h2 className="text-xl font-semibold mb-4">{question}</h2>
             <div className="flex flex-col gap-3">
                 {options?.map((option) => (
-                    <Button {...option} key={option.nextId} onClick={() => onClick(option.nextId)} />
+                    <Button
+                        {...option}
+                        key={option.nextId}
+                        onClick={() => onClick(option.nextId)}
+                    />
                 ))}
             </div>
         </>
