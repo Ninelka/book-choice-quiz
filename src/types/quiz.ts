@@ -1,4 +1,4 @@
-import quizFlowData from '../../public/data/quizFlow.json'
+import quizFlowData from '../data/quizFlow.json'
 
 export type QuizOption = {
     label: string
