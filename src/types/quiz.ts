@@ -1,3 +1,5 @@
+import quizFlowData from '../../public/data/quizFlow.json'
+
 export type QuizOption = {
     label: string;
     text: string;
@@ -16,3 +18,5 @@ export type QuizNode = {
     result?: QuizResult;
     options?: QuizOption[];
 };
+
+export const quizFlow: Record<string, QuizNode> = quizFlowData;
