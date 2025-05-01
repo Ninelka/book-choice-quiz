@@ -1,7 +1,1 @@
 @import 'tailwindcss';
-
-.cover {
-    @apply bg-no-repeat bg-center w-auto h-100 object-contain rounded-xl mb-4;
-
-    background-image: url('../public/images/book-cover-placeholder.png');
-}

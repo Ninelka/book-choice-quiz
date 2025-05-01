@@ -15,7 +15,7 @@ export const Result = ({ id, result, onClick, onReset }: ResultProps) => {
         <>
             <h2 className="text-xl font-bold mb-4">Результат:</h2>
             <img
-                className="cover"
+                className="bg-no-repeat bg-center w-auto h-100 object-contain rounded-xl mb-4"
                 src={`/public/images/${id}.jpg`}
                 alt={title}
             />
