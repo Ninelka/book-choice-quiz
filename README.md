@@ -1,5 +1,7 @@
 # 📚 Sci-Fi & Fantasy Book Quiz
 
+Demo: [link](https://ninelka.github.io/book-choice-quiz/) 👈
+
 > _“One day, I came across an amazing flowchart created by SFSignal and NPR — a branching guide to the Top 100 Science Fiction and Fantasy Books. I thought: what if I could bring that interactive experience to life on the web?”_
 
 This project transforms NPR’s classic **Top 100 Sci-Fi & Fantasy Books Flowchart** into a **fully interactive React-based quiz app**. It guides users through a series of questions, mimicking the original visual chart’s logic, and recommends a book based on their choices.
