@@ -1,11 +1,11 @@
-import { useTranslation } from 'react-i18next';
+import { useTranslation } from 'react-i18next'
 
 export const LanguageSwitcher = () => {
-    const { i18n } = useTranslation();
+    const { i18n } = useTranslation()
 
     const changeLanguage = (e: React.ChangeEvent<HTMLSelectElement>) => {
-        i18n.changeLanguage(e.target.value);
-    };
+        i18n.changeLanguage(e.target.value)
+    }
 
     return (
         <div className="flex flex-col items-center gap-2 p-2 absolute right-0 top-0">
@@ -20,5 +20,5 @@ export const LanguageSwitcher = () => {
                 <option value="ru">🇷🇺 Русский</option>
             </select>
         </div>
-    );
-};
+    )
+}

@@ -10,7 +10,7 @@ interface ResultProps {
 }
 
 const Result = ({ id, result, onClick, onReset }: ResultProps) => {
-    const { t } = useTranslation();
+    const { t } = useTranslation()
 
     const { title, author, options } = result
 
