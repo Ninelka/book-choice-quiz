@@ -9,7 +9,7 @@ export const Question = ({ question, options, onClick }: QuestionProps) => {
     return (
         <>
             <h2 className="text-xl font-semibold mb-4">{question}</h2>
-            <div className="flex flex-col gap-3">
+            <div className="flex flex-wrap gap-3">
                 {options?.map((option) => (
                     <Button
                         {...option}

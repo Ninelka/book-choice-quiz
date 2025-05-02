@@ -33,7 +33,7 @@ const Result = ({ id, result, onClick, onReset }: ResultProps) => {
             ))}
             <button
                 onClick={onReset}
-                className="mt-6 bg-green-500 hover:bg-green-600 text-white py-2 px-4 rounded-xl transition cursor-pointer"
+                className="mt-6 bg-green-600 hover:bg-green-700 text-white py-2 px-4 rounded-xl transition cursor-pointer"
             >
                 {t('restart')}
             </button>
