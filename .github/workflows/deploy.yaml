@@ -5,7 +5,10 @@ on:
     branches: [ dev ]
   pull_request:
     branches: [ dev ]
-
+permissions:
+  contents: write
+  pages: write
+  id-token: write
 jobs:
   build-and-deploy:
     runs-on: ubuntu-latest
