@@ -1,0 +1,1784 @@
+{
+    "q1": {
+        "id": "q1",
+        "question": "Where should I start?",
+        "options": [
+            {
+                "label": "Fantasy",
+                "text": "",
+                "nextId": "q2"
+            },
+            {
+                "label": "SciFi",
+                "text": "",
+                "nextId": "q49"
+            }
+        ]
+    },
+    "q2": {
+        "id": "q2",
+        "question": "Fantasy",
+        "options": [
+            {
+                "label": "Yes",
+                "text": "I pretty much live in a fantasy land already",
+                "nextId": "q3"
+            },
+            {
+                "label": "No",
+                "text": "Can't I have both?",
+                "nextId": "q29"
+            },
+            {
+                "label": "No",
+                "text": "I only read books with pictures",
+                "nextId": "q33"
+            },
+            {
+                "label": "No",
+                "text": "What about Horror?",
+                "nextId": "q34"
+            },
+            {
+                "label": "No",
+                "text": "I'd rather not be seen in that area of the bookstore",
+                "nextId": "q36"
+            }
+        ]
+    },
+    "q3": {
+        "id": "q3",
+        "question": "Are you going to be upset when you don't find Potter?",
+        "options": [
+            {
+                "label": "Yes",
+                "text": "Give me more precocious lads at schools of magic, please",
+                "nextId": "b1"
+            },
+            {
+                "label": "No",
+                "text": "I know where to find him if I need him",
+                "nextId": "q4"
+            }
+        ]
+    },
+    "q4": {
+        "id": "q4",
+        "question": "Are you new to the fantasy genre?",
+        "options": [
+            {
+                "label": "Yes",
+                "text": "I am as yet unfamiliar with your tropes. Do your worst",
+                "nextId": "b2"
+            },
+            {
+                "label": "No",
+                "text": "I'm what you call, experienced",
+                "nextId": "q5"
+            },
+            {
+                "label": "Maybe",
+                "text": "Does the Wizard of Oz count?",
+                "nextId": "b4"
+            }
+        ]
+    },
+    "q5": {
+        "id": "q5",
+        "question": "Like the Arthurian legend?",
+        "options": [
+            {
+                "label": "Yes",
+                "text": "I own The Sword and the Stone on DVD and VHS",
+                "nextId": "q6"
+            },
+            {
+                "label": "No",
+                "text": "",
+                "nextId": "q7"
+            }
+        ]
+    },
+    "q6": {
+        "id": "q6",
+        "question": "Which character do you like best?",
+        "options": [
+            {
+                "label": "Morgan le Faye",
+                "text": "",
+                "nextId": "b5"
+            },
+            {
+                "label": "Merlin",
+                "text": "",
+                "nextId": "b6"
+            },
+            {
+                "label": "Arthur",
+                "text": "",
+                "nextId": "b7"
+            }
+        ]
+    },
+    "q7": {
+        "id": "q7",
+        "question": "Looking for modern-day setting?",
+        "options": [
+            {
+                "label": "Yes",
+                "text": "I'm a city-person",
+                "nextId": "q8"
+            },
+            {
+                "label": "No",
+                "text": "Let's find another world, this one's depressing",
+                "nextId": "q9"
+            },
+            {
+                "label": "Maybe",
+                "text": "I'm partial to small towns",
+                "nextId": "b8"
+            }
+        ]
+    },
+    "q8": {
+        "id": "q8",
+        "question": "Gods or people under the streets?",
+        "options": [
+            {
+                "label": "Modern Mythology",
+                "text": "",
+                "nextId": "b13"
+            },
+            {
+                "label": "A world beneath the city",
+                "text": "",
+                "nextId": "b14"
+            }
+        ]
+    },
+    "q9": {
+        "id": "q9",
+        "question": "Fan of Westerns?",
+        "options": [
+            {
+                "label": "Yes",
+                "text": "I'm prone to don chaps and walk the streets at high noon",
+                "nextId": "b9"
+            },
+            {
+                "label": "No",
+                "text": "Too dusty. And I'm not much of a card player",
+                "nextId": "q10"
+            }
+        ]
+    },
+    "q10": {
+        "id": "q10",
+        "question": "Animals more your thing?",
+        "options": [
+            {
+                "label": "Yes",
+                "text": "I donate to the WWF. Not the wrestling one",
+                "nextId": "q11"
+            },
+            {
+                "label": "No",
+                "text": "I have allergies",
+                "nextId": "q12"
+            }
+        ]
+    },
+    "q11": {
+        "id": "q11",
+        "question": "What's your ideal pet?",
+        "options": [
+            {
+                "label": "Unicorn",
+                "text": "",
+                "nextId": "q12"
+            },
+            {
+                "label": "Bunny",
+                "text": "",
+                "nextId": "b11"
+            },
+            {
+                "label": "Dragon",
+                "text": "",
+                "nextId": "b10"
+            }
+        ]
+    },
+    "q12": {
+        "id": "q12",
+        "question": "How about some alternate history?",
+        "options": [
+            {
+                "label": "Yes",
+                "text": "I'm a revisionist myself",
+                "nextId": "q13"
+            },
+            {
+                "label": "No",
+                "text": "I never paid any attention in history class",
+                "nextId": "q14"
+            }
+        ]
+    },
+    "q13": {
+        "id": "q13",
+        "question": "Romance or warring magicians?",
+        "options": [
+            {
+                "label": "Romance",
+                "text": "",
+                "nextId": "b15"
+            },
+            {
+                "label": "Magicians",
+                "text": "",
+                "nextId": "b16"
+            }
+        ]
+    },
+    "q14": {
+        "id": "q14",
+        "question": "Ready to dive into a series?",
+        "options": [
+            {
+                "label": "Yes",
+                "text": "The other two options ended with some strange choices",
+                "nextId": "q16"
+            },
+            {
+                "label": "No",
+                "text": "Let's keep this casual",
+                "nextId": "q15"
+            },
+            {
+                "label": "Maybe",
+                "text": "How about an episodic series?",
+                "nextId": "q28"
+            }
+        ]
+    },
+    "q15": {
+        "id": "q15",
+        "question": "With pirates or without?",
+        "options": [
+            {
+                "label": "No pirates here. No siree, Bob. No pirates at all",
+                "text": "",
+                "nextId": "b17"
+            },
+            {
+                "label": "Pirates please",
+                "text": "",
+                "nextId": "b18"
+            }
+        ]
+    },
+    "q16": {
+        "id": "q16",
+        "question": "Does the series have to be finished?",
+        "options": [
+            {
+                "label": "Yes",
+                "text": "",
+                "nextId": "q18"
+            },
+            {
+                "label": "No",
+                "text": "I like to be held in suspense. Preferably for years at a time",
+                "nextId": "q17"
+            }
+        ]
+    },
+    "q17": {
+        "id": "q17",
+        "question": "Take the high road or the low road?",
+        "options": [
+            {
+                "label": "Low Fantasy",
+                "text": "",
+                "nextId": "b20"
+            },
+            {
+                "label": "High Fantasy",
+                "text": "",
+                "nextId": "b19"
+            }
+        ]
+    },
+    "q18": {
+        "id": "q18",
+        "question": "Do the words 'Sword and Sorcery' have a positive connotation for you?",
+        "options": [
+            {
+                "label": "Yes",
+                "text": "Wizards and barbarians? What's not to like?",
+                "nextId": "q26"
+            },
+            {
+                "label": "No",
+                "text": "",
+                "nextId": "q19"
+            }
+        ]
+    },
+    "q19": {
+        "id": "q19",
+        "question": "Looking for an old-fashioned Trilogy?",
+        "options": [
+            {
+                "label": "Yes",
+                "text": "Three is my lucky number",
+                "nextId": "q20"
+            },
+            {
+                "label": "No",
+                "text": "In for a penny, in for a pound I always say",
+                "nextId": "q21"
+            },
+            {
+                "label": "Maybe",
+                "text": "How about a trilogy of trilogies?",
+                "nextId": "b31"
+            }
+        ]
+    },
+    "q20": {
+        "id": "q20",
+        "question": "What shall we read about?",
+        "options": [
+            {
+                "label": "Thieves",
+                "text": "",
+                "nextId": "b27"
+            },
+            {
+                "label": "MacGuffins",
+                "text": "",
+                "nextId": "b28"
+            },
+            {
+                "label": "Assassins",
+                "text": "",
+                "nextId": "b29"
+            },
+            {
+                "label": "Magicians",
+                "text": "",
+                "nextId": "b30"
+            }
+        ]
+    },
+    "q21": {
+        "id": "q21",
+        "question": "So, five or six books enough for you?",
+        "options": [
+            {
+                "label": "Yes",
+                "text": "That should keep me busy",
+                "nextId": "q22"
+            },
+            {
+                "label": "No",
+                "text": "I shall require at least ten",
+                "nextId": "q23"
+            }
+        ]
+    },
+    "q22": {
+        "id": "q22",
+        "question": "Enjoy stories about orphaned farm boys?",
+        "options": [
+            {
+                "label": "No. Though...",
+                "text": "",
+                "nextId": "b37"
+            }
+        ]
+    },
+    "q23": {
+        "id": "q23",
+        "question": "Enjoy quests to prevent great evil from conquering the world?",
+        "options": [
+            {
+                "label": "Yes",
+                "text": "Good vs. Evil on an epic scale, please",
+                "nextId": "q24"
+            },
+            {
+                "label": "No",
+                "text": "I need a little more complexity",
+                "nextId": "q25"
+            }
+        ]
+    },
+    "q24": {
+        "id": "q24",
+        "question": "Who will save us?",
+        "options": [
+            {
+                "label": "The Seeker of Truth",
+                "text": "",
+                "nextId": "b32"
+            },
+            {
+                "label": "The One Power",
+                "text": "",
+                "nextId": "b32"
+            }
+        ]
+    },
+    "q25": {
+        "id": "q25",
+        "question": "Choose wisely, this is the end",
+        "options": [
+            {
+                "label": "Earth in the Shadows",
+                "text": "",
+                "nextId": "b35"
+            },
+            {
+                "label": "Weaving Timeline",
+                "text": "",
+                "nextId": "b34"
+            }
+        ]
+    },
+    "q26": {
+        "id": "q26",
+        "question": "Roleplayer?",
+        "options": [
+            {
+                "label": "Yes",
+                "text": "",
+                "nextId": "b24"
+            },
+            {
+                "label": "No",
+                "text": "",
+                "nextId": "q27"
+            }
+        ]
+    },
+    "q27": {
+        "id": "q27",
+        "question": "More wizards or barbarians?",
+        "options": [
+            {
+                "label": "Wizards",
+                "text": "",
+                "nextId": "b25"
+            },
+            {
+                "label": "Barbarians",
+                "text": "",
+                "nextId": "b26"
+            }
+        ]
+    },
+    "q28": {
+        "id": "q28",
+        "question": "What's your pleasure?",
+        "options": [
+            {
+                "label": "Bureaucratic Satire",
+                "text": "",
+                "nextId": "b21"
+            },
+            {
+                "label": "Religious Satire",
+                "text": "",
+                "nextId": "b22"
+            },
+            {
+                "label": "Fun with Puns",
+                "text": "",
+                "nextId": "b23"
+            }
+        ]
+    },
+    "q29": {
+        "id": "q29",
+        "question": "You can have it all. Into the future or the past?",
+        "options": [
+            {
+                "label": "Past",
+                "text": "",
+                "nextId": "q32"
+            },
+            {
+                "label": "Future",
+                "text": "",
+                "nextId": "q30"
+            }
+        ]
+    },
+    "q30": {
+        "id": "q30",
+        "question": "Math Geek?",
+        "options": [
+            {
+                "label": "Yes",
+                "text": "",
+                "nextId": "b38"
+            },
+            {
+                "label": "No",
+                "text": "",
+                "nextId": "q31"
+            }
+        ]
+    },
+    "q31": {
+        "id": "q31",
+        "question": "What sounds more interesting: A dying sun or an impaling demon?",
+        "options": [
+            {
+                "label": "A dying sun sounds poetic",
+                "text": "",
+                "nextId": "b39"
+            },
+            {
+                "label": "Bring on the Shrike",
+                "text": "",
+                "nextId": "b40"
+            }
+        ]
+    },
+    "q32": {
+        "id": "q32",
+        "question": "Like monsters?",
+        "options": [
+            {
+                "label": "Yes",
+                "text": "",
+                "nextId": "b41"
+            },
+            {
+                "label": "No",
+                "text": "",
+                "nextId": "b42"
+            }
+        ]
+    },
+    "q33": {
+        "id": "q33",
+        "question": "PoMo Superheroes or tortured spectre?",
+        "options": [
+            {
+                "label": "Heroes",
+                "text": "",
+                "nextId": "b43"
+            },
+            {
+                "label": "Master of Dreams",
+                "text": "",
+                "nextId": "b44"
+            }
+        ]
+    },
+    "q34": {
+        "id": "q34",
+        "question": "Not much to chose from. Looking for vampires?",
+        "options": [
+            {
+                "label": "Yes",
+                "text": "",
+                "nextId": "b45"
+            },
+            {
+                "label": "No",
+                "text": "More like zombies",
+                "nextId": "q35"
+            }
+        ]
+    },
+    "q35": {
+        "id": "q35",
+        "question": "Zombie war, or one man against a horde?",
+        "options": [
+            {
+                "label": "With a help from my friends",
+                "text": "",
+                "nextId": "b46"
+            },
+            {
+                "label": "I'm going it alone",
+                "text": "",
+                "nextId": "b47"
+            },
+            {
+                "label": "No",
+                "text": "On second thought why not go with a classic",
+                "nextId": "b48"
+            }
+        ]
+    },
+    "q36": {
+        "id": "q36",
+        "question": "We won't tell. Prefer a drama?",
+        "options": [
+            {
+                "label": "Yes",
+                "text": "I love me a good tear jerker",
+                "nextId": "q37"
+            },
+            {
+                "label": "No",
+                "text": "I just watched 'The notebook' last night",
+                "nextId": "q40"
+            }
+        ]
+    },
+    "q37": {
+        "id": "q37",
+        "question": "Romance or Overcoming the odds?",
+        "options": [
+            {
+                "label": "I root for the underdog",
+                "text": "",
+                "nextId": "b49"
+            },
+            {
+                "label": "Romance",
+                "text": "",
+                "nextId": "q38"
+            }
+        ]
+    },
+    "q38": {
+        "id": "q38",
+        "question": "Like a little time travel with your love story?",
+        "options": [
+            {
+                "label": "No",
+                "text": "",
+                "nextId": "b50"
+            }
+        ]
+    },
+    "q40": {
+        "id": "q40",
+        "question": "Postmodern mind-bending creation?",
+        "options": [
+            {
+                "label": "Yes",
+                "text": "If one examines neocultural narrative, one is faced with a choice: either accept the subtextual paradigm of expression or conclude that narrative must come from...",
+                "nextId": "q41"
+            },
+            {
+                "label": "No",
+                "text": "",
+                "nextId": "q42"
+            }
+        ]
+    },
+    "q41": {
+        "id": "q41",
+        "question": "Want some time-travel too?",
+        "options": [
+            {
+                "label": "Yes",
+                "text": "",
+                "nextId": "b52"
+            },
+            {
+                "label": "No",
+                "text": "",
+                "nextId": "b53"
+            }
+        ]
+    },
+    "q42": {
+        "id": "q42",
+        "question": "Interested in Dystopian fiction?",
+        "options": [
+            {
+                "label": "Yes",
+                "text": "I'm a sucker for worst case scenarios",
+                "nextId": "q44"
+            },
+            {
+                "label": "No",
+                "text": "The world is bleak enough already",
+                "nextId": "q43"
+            }
+        ]
+    },
+    "q43": {
+        "id": "q43",
+        "question": "Sounds like you could use a nice allegory",
+        "options": [
+            {
+                "label": "Yes",
+                "text": "",
+                "nextId": "b54"
+            }
+        ]
+    },
+    "q44": {
+        "id": "q44",
+        "question": "Totalitarian or world gone mad?",
+        "options": [
+            {
+                "label": "Madness",
+                "text": "",
+                "nextId": "q46"
+            },
+            {
+                "label": "Dictators",
+                "text": "",
+                "nextId": "q45"
+            }
+        ]
+    },
+    "q45": {
+        "id": "q45",
+        "question": "What type?",
+        "options": [
+            {
+                "label": "Religious Totalitarians",
+                "text": "",
+                "nextId": "b56"
+            },
+            {
+                "label": "Warlords",
+                "text": "",
+                "nextId": "b55"
+            }
+        ]
+    },
+    "q46": {
+        "id": "q46",
+        "question": "Do manufactured humans interest you?",
+        "options": [
+            {
+                "label": "Yes",
+                "text": "",
+                "nextId": "b57"
+            },
+            {
+                "label": "No",
+                "text": "",
+                "nextId": "q47"
+            }
+        ]
+    },
+    "q47": {
+        "id": "q47",
+        "question": "Which question most frightens you?",
+        "options": [
+            {
+                "label": "No",
+                "text": "I was thinking more post-apocalyptic",
+                "nextId": "q48"
+            },
+            {
+                "label": "Who needs Free Will?",
+                "text": "",
+                "nextId": "b59"
+            },
+            {
+                "label": "Who needs books?",
+                "text": "",
+                "nextId": "b58"
+            }
+        ]
+    },
+    "q48": {
+        "id": "q48",
+        "question": "Like the world on fire?",
+        "options": [
+            {
+                "label": "Yes",
+                "text": "Some men just want to see the world burn",
+                "nextId": "b61"
+            },
+            {
+                "label": "No",
+                "text": "But a worldwide pandemic would be cool",
+                "nextId": "b60"
+            }
+        ]
+    },
+    "q49": {
+        "id": "q49",
+        "question": "SciFi",
+        "options": [
+            {
+                "label": "Yes",
+                "text": "Fly me to the moon",
+                "nextId": "q50"
+            },
+            {
+                "label": "No",
+                "text": "Can't I have both?",
+                "nextId": "q29"
+            },
+            {
+                "label": "No",
+                "text": "I only read books with pictures",
+                "nextId": "q33"
+            },
+            {
+                "label": "No",
+                "text": "What about Horror?",
+                "nextId": "q34"
+            },
+            {
+                "label": "No",
+                "text": "I'd rather not be seen in that area of the bookstore",
+                "nextId": "q36"
+            }
+        ]
+    },
+    "q50": {
+        "id": "q50",
+        "question": "Cyberpunk?",
+        "options": [
+            {
+                "label": "Yes",
+                "text": "I love that Billy Idol album",
+                "nextId": "q51"
+            },
+            {
+                "label": "No",
+                "text": "I get enough 'cyber punks' on Facebook",
+                "nextId": "q52"
+            },
+            {
+                "label": "Maybe",
+                "text": "Can I get the geek without the bleak?",
+                "nextId": "b65"
+            }
+        ]
+    },
+    "q51": {
+        "id": "q51",
+        "question": "Gritty Noir, Neo-Victorian or Samurai?",
+        "options": [
+            {
+                "label": "Funny Hats, please",
+                "text": "",
+                "nextId": "b63"
+            },
+            {
+                "label": "Noir",
+                "text": "",
+                "nextId": "b62"
+            },
+            {
+                "label": "Samurai",
+                "text": "",
+                "nextId": "b64"
+            }
+        ]
+    },
+    "q52": {
+        "id": "q52",
+        "question": "Ready to blast into space?",
+        "options": [
+            {
+                "label": "Yes",
+                "text": "The start are my destination. (Can't believe they left that one off.)",
+                "nextId": "q61"
+            },
+            {
+                "label": "No",
+                "text": "I like to keep my feet on the ground",
+                "nextId": "q53"
+            },
+            {
+                "label": "Maybe",
+                "text": "Let's just stay close. I'm new at this",
+                "nextId": "b77"
+            }
+        ]
+    },
+    "q53": {
+        "id": "q53",
+        "question": "Don't you mean under the ground?",
+        "options": [
+            {
+                "label": "Yes",
+                "text": "Give me some subterranean action",
+                "nextId": "q54"
+            },
+            {
+                "label": "No",
+                "text": "I said on, smart guy",
+                "nextId": "q55"
+            }
+        ]
+    },
+    "q54": {
+        "id": "q54",
+        "question": "Wet or Dry?",
+        "options": [
+            {
+                "label": "Underground",
+                "text": "",
+                "nextId": "b67"
+            },
+            {
+                "label": "Underwater",
+                "text": "",
+                "nextId": "b66"
+            }
+        ]
+    },
+    "q55": {
+        "id": "q55",
+        "question": "Politics, Religion, or Philosophy?",
+        "options": [
+            {
+                "label": "I think, therefore I am",
+                "text": "",
+                "nextId": "b68"
+            },
+            {
+                "label": "Read my lips...",
+                "text": "",
+                "nextId": "q56"
+            },
+            {
+                "label": "Tell me the good word",
+                "text": "",
+                "nextId": "q57"
+            },
+            {
+                "label": "No",
+                "text": "These things aren't polite to talk about in company. Don't you guys write about time travel or something?",
+                "nextId": "q58"
+            }
+        ]
+    },
+    "q56": {
+        "id": "q56",
+        "question": "What's your interest?",
+        "options": [
+            {
+                "label": "Feminism",
+                "text": "",
+                "nextId": "b69"
+            },
+            {
+                "label": "Communism",
+                "text": "",
+                "nextId": "b70"
+            }
+        ]
+    },
+    "q57": {
+        "id": "q57",
+        "question": "Pick your poison",
+        "options": [
+            {
+                "label": "Catholicism",
+                "text": "",
+                "nextId": "b71"
+            },
+            {
+                "label": "Humanism",
+                "text": "",
+                "nextId": "b72"
+            }
+        ]
+    },
+    "q58": {
+        "id": "q58",
+        "question": "Sudo do. Modern or classic?",
+        "options": [
+            {
+                "label": "Modern",
+                "text": "",
+                "nextId": "b73"
+            },
+            {
+                "label": "Classic",
+                "text": "",
+                "nextId": "b74"
+            },
+            {
+                "label": "No",
+                "text": "",
+                "nextId": "q59"
+            }
+        ]
+    },
+    "q59": {
+        "id": "q59",
+        "question": "All right, all right... I'm a bit out of my comfort zone. Got a nice mystery or a thriller?",
+        "options": [
+            {
+                "label": "Thriller",
+                "text": "",
+                "nextId": "b75"
+            },
+            {
+                "label": "Mystery",
+                "text": "",
+                "nextId": "b76"
+            }
+        ]
+    },
+    "q60": {
+        "id": "q60",
+        "question": "What would you like to see from the Red Planet?",
+        "options": [
+            {
+                "label": "Vignettes",
+                "text": "",
+                "nextId": "b78"
+            },
+            {
+                "label": "Environmentalism",
+                "text": "",
+                "nextId": "b79"
+            },
+            {
+                "label": "Through the looking glass",
+                "text": "",
+                "nextId": "b80"
+            }
+        ]
+    },
+    "q61": {
+        "id": "q61",
+        "question": "War Buff?",
+        "options": [
+            {
+                "label": "Yes",
+                "text": "I watch the military channel exclusively",
+                "nextId": "q63"
+            },
+            {
+                "label": "No",
+                "text": "But I'm interested in first contact",
+                "nextId": "q62"
+            },
+            {
+                "label": "Maybe",
+                "text": "But what I'm really after is exploring the galaxy",
+                "nextId": "q64"
+            }
+        ]
+    },
+    "q62": {
+        "id": "q62",
+        "question": "What kind of aliens would you like?",
+        "options": [
+            {
+                "label": "Hostile",
+                "text": "",
+                "nextId": "b96"
+            },
+            {
+                "label": "Absent",
+                "text": "",
+                "nextId": "b97"
+            },
+            {
+                "label": "Peaceful",
+                "text": "",
+                "nextId": "b98"
+            },
+            {
+                "label": "Fatherly",
+                "text": "",
+                "nextId": "b100"
+            },
+            {
+                "label": "Prodigious Breeders",
+                "text": "",
+                "nextId": "b99"
+            }
+        ]
+    },
+    "q63": {
+        "id": "q63",
+        "question": "Who shall we fight?",
+        "options": [
+            {
+                "label": "Man vs. Bugs",
+                "text": "",
+                "nextId": "b83"
+            },
+            {
+                "label": "Man vs. Far Away Bugs",
+                "text": "",
+                "nextId": "b84"
+            },
+            {
+                "label": "Man vs. Alien",
+                "text": "",
+                "nextId": "b85"
+            },
+            {
+                "label": "Spiritual vs. Colonial",
+                "text": "",
+                "nextId": "b86"
+            },
+            {
+                "label": "Human vs. Human",
+                "text": "",
+                "nextId": "b82"
+            },
+            {
+                "label": "Everyone",
+                "text": "",
+                "nextId": "b81"
+            }
+        ]
+    },
+    "q64": {
+        "id": "q64",
+        "question": "A galaxy far, far away?",
+        "options": [
+            {
+                "label": "Yes",
+                "text": "Preferably long ago as well",
+                "nextId": "b87"
+            },
+            {
+                "label": "No",
+                "text": "I see what you did there",
+                "nextId": "q65"
+            }
+        ]
+    },
+    "q65": {
+        "id": "q65",
+        "question": "Are you having a laugh?",
+        "options": [
+            {
+                "label": "Yes",
+                "text": "Comedy is in my blood",
+                "nextId": "b88"
+            },
+            {
+                "label": "No",
+                "text": "I do not have a sense of humor that I'm aware of",
+                "nextId": "q66"
+            },
+            {
+                "label": "Maybe",
+                "text": "I don't mind a few chuckles between explosions",
+                "nextId": "b89"
+            }
+        ]
+    },
+    "q66": {
+        "id": "q66",
+        "question": "Kind of professorial aren't we?",
+        "options": [
+            {
+                "label": "Yes",
+                "text": "I'm a scholarly adventurer",
+                "nextId": "q68"
+            },
+            {
+                "label": "No",
+                "text": "I just like my action intense",
+                "nextId": "b90"
+            }
+        ]
+    },
+    "q67": {
+        "id": "q67",
+        "question": "Short stories it is then. Robots or Martians?",
+        "options": [
+            {
+                "label": "Robots",
+                "text": "",
+                "nextId": "b91"
+            },
+            {
+                "label": "Martians",
+                "text": "",
+                "nextId": "b92"
+            }
+        ]
+    },
+    "q68": {
+        "id": "q68",
+        "question": "What are you studying?",
+        "options": [
+            {
+                "label": "History",
+                "text": "",
+                "nextId": "b93"
+            },
+            {
+                "label": "Engineering",
+                "text": "",
+                "nextId": "b94"
+            },
+            {
+                "label": "Information Technology",
+                "text": "",
+                "nextId": "b95"
+            }
+        ]
+    },
+    "b1": {
+        "id": "b1",
+        "result": {
+            "author": "Patrick Rothfuss",
+            "title": "The Kingkiller Chronicle"
+        }
+    },
+    "b2": {
+        "id": "b2",
+        "result": {
+            "author": "J.R.R. Tolkien",
+            "title": "The Lord of the Rings",
+            "options": [
+                {
+                    "label": "No",
+                    "text": "I'm not that new",
+                    "nextId": "b3"
+                }
+            ]
+        }
+    },
+    "b3": {
+        "id": "b3",
+        "result": {
+            "author": "J.R.R. Tolkien",
+            "title": "The Silmarillion"
+        }
+    },
+    "b4": {
+        "id": "b4",
+        "result": {
+            "author": "Gregory Maguire",
+            "title": "Wicked: The Life and Times of the Wicked Witch of the West"
+        }
+    },
+    "b5": {
+        "id": "b5",
+        "result": {
+            "author": "Marion Zimmer Bradley",
+            "title": "The Mists of Avalon"
+        }
+    },
+    "b6": {
+        "id": "b6",
+        "result": {
+            "author": "Mary Stewart",
+            "title": "The Crystal Cave"
+        }
+    },
+    "b7": {
+        "id": "b7",
+        "result": {
+            "author": "T.H. White",
+            "title": "The Once and Future King"
+        }
+    },
+    "b8": {
+        "id": "b8",
+        "result": {
+            "author": "Ray Bradbury",
+            "title": "Something Wicked This Way Comes"
+        }
+    },
+    "b9": {
+        "id": "b9",
+        "result": {
+            "author": "Stephen King",
+            "title": "The Dark Tower"
+        }
+    },
+    "b10": {
+        "id": "b10",
+        "result": {
+            "author": "Anne McCaffrey",
+            "title": "Dragonflight"
+        }
+    },
+    "b11": {
+        "id": "b11",
+        "result": {
+            "author": "Richard Adams",
+            "title": "Watership Down"
+        }
+    },
+    "b12": {
+        "id": "b12",
+        "result": {
+            "author": "Peter S. Beagle",
+            "title": "The Last Unicorn"
+        }
+    },
+    "b13": {
+        "id": "b13",
+        "result": {
+            "author": "Neil Gaiman",
+            "title": "American Gods"
+        }
+    },
+    "b14": {
+        "id": "b14",
+        "result": {
+            "author": "Neil Gaiman",
+            "title": "Neverwhere"
+        }
+    },
+    "b15": {
+        "id": "b15",
+        "result": {
+            "author": "Jacqueline Carey",
+            "title": "Kushiel's Legacy"
+        }
+    },
+    "b16": {
+        "id": "b16",
+        "result": {
+            "author": "Susanna Clarke",
+            "title": "Jonathan Strange & Mr Norrell"
+        }
+    },
+    "b17": {
+        "id": "b17",
+        "result": {
+            "author": "Neil Gaiman",
+            "title": "Stardust"
+        }
+    },
+    "b18": {
+        "id": "b18",
+        "result": {
+            "author": "William Goldman",
+            "title": "The Princess Bride"
+        }
+    },
+    "b19": {
+        "id": "b19",
+        "result": {
+            "author": "George R.R. Martin",
+            "title": "A Song of Ice and Fire"
+        }
+    },
+    "b20": {
+        "id": "b20",
+        "result": { "author": "Brandon Sanderson", "title": "The Way of Kings" }
+    },
+    "b21": {
+        "id": "b21",
+        "result": { "author": "Terry Pratchett", "title": "Hogfather" }
+    },
+    "b22": {
+        "id": "b22",
+        "result": { "author": "Terry Pratchett", "title": "Small Gods" }
+    },
+    "b23": {
+        "id": "b23",
+        "result": { "author": "Anthony Pearce", "title": "Xanth" }
+    },
+    "b24": {
+        "id": "b24",
+        "result": { "author": "R.A. Salvatore", "title": "The Dark Elf" }
+    },
+    "b25": {
+        "id": "b25",
+        "result": { "author": "Michael Moorcock", "title": "The Elric Saga" }
+    },
+    "b26": {
+        "id": "b26",
+        "result": {
+            "author": "Robert E. Howard",
+            "title": "Conan the Barbarian"
+        }
+    },
+    "b27": {
+        "id": "b27",
+        "result": { "author": "Brandon Sanderson", "title": "Mistborn" }
+    },
+    "b28": {
+        "id": "b28",
+        "result": { "author": "Terry Brooks", "title": "Shannara" }
+    },
+    "b29": {
+        "id": "b29",
+        "result": { "author": "Robin Hobb", "title": "The Farseer Trilogy" }
+    },
+    "b30": {
+        "id": "b30",
+        "result": { "author": "Raymond E. Feist", "title": "Magician" }
+    },
+    "b31": {
+        "id": "b31",
+        "result": { "author": "Stephen Donaldson", "title": "Thomas Covenant" }
+    },
+    "b32": {
+        "id": "b32",
+        "result": { "author": "Terry Goodkind", "title": "The Sword of Truth" }
+    },
+    "b33": {
+        "id": "b33",
+        "result": { "author": "Robert Jordan", "title": "The Wheel of Time" }
+    },
+    "b34": {
+        "id": "b34",
+        "result": {
+            "author": "Steven Erikson",
+            "title": "Malazan Book of the Fallen"
+        }
+    },
+    "b35": {
+        "id": "b35",
+        "result": {
+            "author": "Roger Zelazny",
+            "title": "The Chronicles of Amber"
+        }
+    },
+    "b36": {
+        "id": "b36",
+        "result": { "author": "David Eddings", "title": "The Belgariad" }
+    },
+    "b37": {
+        "id": "b37",
+        "result": {
+            "author": "Jim Butcher",
+            "title": "The Codex Alera",
+            "options": [
+                {
+                    "label": "Is there anything else?",
+                    "text": "",
+                    "nextId": "b36"
+                }
+            ]
+        }
+    },
+    "b38": {
+        "id": "b38",
+        "result": { "author": "Neal Stephenson", "title": "Anathem" }
+    },
+    "b39": {
+        "id": "b39",
+        "result": { "author": "Gene Wolfe", "title": "The Book of the New Sun" }
+    },
+    "b40": {
+        "id": "b40",
+        "result": { "author": "Dan Simmons", "title": "Hyperion" }
+    },
+    "b41": {
+        "id": "b41",
+        "result": { "author": "China Miéville", "title": "The City & The City" }
+    },
+    "b42": {
+        "id": "b42",
+        "result": { "author": "Jasper Fforde", "title": "The Eyre Affair" }
+    },
+    "b43": {
+        "id": "b43",
+        "result": { "author": "Alan Moore", "title": "Watchmen" }
+    },
+    "b44": {
+        "id": "b44",
+        "result": { "author": "Neil Gaiman", "title": "The Sandman" }
+    },
+    "b45": {
+        "id": "b45",
+        "result": { "author": "Robin McKinley", "title": "Sunshine" }
+    },
+    "b46": {
+        "id": "b46",
+        "result": { "author": "Max Brooks", "title": "World War Z" }
+    },
+    "b47": {
+        "id": "b47",
+        "result": { "author": "Richard Matheson", "title": "I Am Legend" }
+    },
+    "b48": {
+        "id": "b48",
+        "result": { "author": "Mary Shelley", "title": "Frankenstein" }
+    },
+    "b49": {
+        "id": "b49",
+        "result": { "author": "Daniel Keyes", "title": "Flowers for Algernon" }
+    },
+    "b50": {
+        "id": "b50",
+        "result": {
+            "author": "Audrey Niffenegger",
+            "title": "The Time Traveler's Wife",
+            "options": [
+                {
+                    "label": "Is there anything else?",
+                    "text": "",
+                    "nextId": "b51"
+                }
+            ]
+        }
+    },
+    "b51": {
+        "id": "b51",
+        "result": { "author": "Diana Gabaldon", "title": "Outlander" }
+    },
+    "b52": {
+        "id": "b52",
+        "result": { "author": "Kurt Vonnegut", "title": "Slaughterhouse-Five" }
+    },
+    "b53": {
+        "id": "b53",
+        "result": { "author": "Kurt Vonnegut", "title": "Cat's Cradle" }
+    },
+    "b54": {
+        "id": "b54",
+        "result": { "author": "George Orwell", "title": "Animal Farm" }
+    },
+    "b55": {
+        "id": "b55",
+        "result": { "author": "George Orwell", "title": "1984" }
+    },
+    "b56": {
+        "id": "b56",
+        "result": {
+            "author": "Margaret Atwood",
+            "title": "The Handmaid's Tale"
+        }
+    },
+    "b57": {
+        "id": "b57",
+        "result": { "author": "Aldous Huxley", "title": "Brave New World" }
+    },
+    "b58": {
+        "id": "b58",
+        "result": { "author": "Ray Bradbury", "title": "Fahrenheit 451" }
+    },
+    "b59": {
+        "id": "b59",
+        "result": { "author": "Anthony Burgess", "title": "A Clockwork Orange" }
+    },
+    "b60": {
+        "id": "b60",
+        "result": { "author": "Stephen King", "title": "The Stand" }
+    },
+    "b61": {
+        "id": "b61",
+        "result": { "author": "Cormac McCarthy", "title": "The Road" }
+    },
+    "b62": {
+        "id": "b62",
+        "result": { "author": "William Gibson", "title": "Neuromancer" }
+    },
+    "b63": {
+        "id": "b63",
+        "result": { "author": "Neal Stephenson", "title": "The Diamond Age" }
+    },
+    "b64": {
+        "id": "b64",
+        "result": { "author": "Neal Stephenson", "title": "Snow Crash" }
+    },
+    "b65": {
+        "id": "b65",
+        "result": { "author": "Neal Stephenson", "title": "Cryptonomicon" }
+    },
+    "b66": {
+        "id": "b66",
+        "result": {
+            "author": "Jules Verne",
+            "title": "Twenty Thousand Leagues Under the Sea"
+        }
+    },
+    "b67": {
+        "id": "b67",
+        "result": {
+            "author": "Jules Verne",
+            "title": "Journey to the Center of the Earth"
+        }
+    },
+    "b68": {
+        "id": "b68",
+        "result": {
+            "author": "Philip K. Dick",
+            "title": "Do Androids Dream of Electric Sheep?"
+        }
+    },
+    "b69": {
+        "id": "b69",
+        "result": {
+            "author": "Ursula K. Le Guin",
+            "title": "The Left Hand of Darkness"
+        }
+    },
+    "b70": {
+        "id": "b70",
+        "result": { "author": "Ursula K. Le Guin", "title": "The Dispossessed" }
+    },
+    "b71": {
+        "id": "b71",
+        "result": {
+            "author": "Walter M. Miller Jr.",
+            "title": "A Canticle for Leibowitz"
+        }
+    },
+    "b72": {
+        "id": "b72",
+        "result": {
+            "author": "Robert Heinlein",
+            "title": "Stranger in a Strange Land"
+        }
+    },
+    "b73": {
+        "id": "b73",
+        "result": { "author": "Connie Willis", "title": "The Doomsday Book" }
+    },
+    "b74": {
+        "id": "b74",
+        "result": { "author": "H.G. Wells", "title": "The Time Machine" }
+    },
+    "b75": {
+        "id": "b75",
+        "result": {
+            "author": "Larry Niven, Jerry Pournelle",
+            "title": "Lucifer's Hammer"
+        }
+    },
+    "b76": {
+        "id": "b76",
+        "result": { "author": "Isaac Asimov", "title": "The Caves of Steel" }
+    },
+    "b77": {
+        "id": "b77",
+        "result": {
+            "author": "Arthur C. Clarke",
+            "title": "2001: A Space Odyssey",
+            "options": [
+                {
+                    "label": "No",
+                    "text": "Too far. Too trippy. How about Mars?",
+                    "nextId": "q60"
+                }
+            ]
+        }
+    },
+    "b78": {
+        "id": "b78",
+        "result": {
+            "author": "Ray Bradbury",
+            "title": "The Martian Chronicles"
+        }
+    },
+    "b79": {
+        "id": "b79",
+        "result": {
+            "author": "Kim Stanley Robinson",
+            "title": "The Mars Trilogy"
+        }
+    },
+    "b80": {
+        "id": "b80",
+        "result": { "author": "C.S. Lewis", "title": "The Space Trilogy" }
+    },
+    "b81": {
+        "id": "b81",
+        "result": { "author": "John Scalzi", "title": "Old Man's War" }
+    },
+    "b82": {
+        "id": "b82",
+        "result": {
+            "author": "Robert Heinlein",
+            "title": "The Moon is a Harsh Mistress"
+        }
+    },
+    "b83": {
+        "id": "b83",
+        "result": { "author": "Robert Heinlein", "title": "Starship Troopers" }
+    },
+    "b84": {
+        "id": "b84",
+        "result": { "author": "Orson Scott Card", "title": "Ender's Game" }
+    },
+    "b85": {
+        "id": "b85",
+        "result": { "author": "Frank Herbert", "title": "Dune" }
+    },
+    "b86": {
+        "id": "b86",
+        "result": { "author": "Joe Haldeman", "title": "The Forever War" }
+    },
+    "b87": {
+        "id": "b87",
+        "result": { "author": "Timothy Zahn", "title": "Thrawn" }
+    },
+    "b88": {
+        "id": "b88",
+        "result": {
+            "author": "Douglas Adams",
+            "title": "The Hitchhiker's Guide to the Galaxy"
+        }
+    },
+    "b89": {
+        "id": "b89",
+        "result": { "author": "Iain M. Banks", "title": "The Culture Novel" }
+    },
+    "b90": {
+        "id": "b90",
+        "result": {
+            "author": "Lois McMaster Bujold",
+            "title": "The Vorkosigan Saga",
+            "options": [
+                {
+                    "label": "No",
+                    "text": "A whole series? I don't have that much time",
+                    "nextId": "q67"
+                }
+            ]
+        }
+    },
+    "b91": {
+        "id": "b91",
+        "result": { "author": "Isaac Asimov", "title": "I, Robot" }
+    },
+    "b92": {
+        "id": "b92",
+        "result": { "author": "Ray Bradbury", "title": "The Illustrated Man" }
+    },
+    "b93": {
+        "id": "b93",
+        "result": { "author": "Isaac Asimov", "title": "Foundation" }
+    },
+    "b94": {
+        "id": "b94",
+        "result": { "author": "Larry Niven", "title": "Ringworld" }
+    },
+    "b95": {
+        "id": "b95",
+        "result": { "author": "Vernor Vinge", "title": "A Fire Upon the Deep" }
+    },
+    "b96": {
+        "id": "b96",
+        "result": { "author": "H.G. Wells", "title": "The War of the Worlds" }
+    },
+    "b97": {
+        "id": "b97",
+        "result": {
+            "author": "Arthur C. Clarke",
+            "title": "Rendezvous with Rama"
+        }
+    },
+    "b98": {
+        "id": "b98",
+        "result": { "author": "Arthur C. Clarke", "title": "Childhood's End" }
+    },
+    "b99": {
+        "id": "b99",
+        "result": {
+            "author": "Larry Niven, Jerry Pournelle",
+            "title": "Mote in God's Eye"
+        }
+    },
+    "b100": {
+        "id": "b100",
+        "result": { "author": "Carl Sagan", "title": "Contact" }
+    }
+}

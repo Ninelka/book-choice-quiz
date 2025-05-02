@@ -1,17 +1,17 @@
 import { lazy, useState } from 'react'
 
 import { Question } from './components/Question.tsx'
-import { quizFlow } from './types/quiz.ts'
-import { Result } from './components/Result.tsx'
+import { useQuizData } from './types/quiz.ts'
 import { motion, AnimatePresence } from 'framer-motion'
 import { LanguageSwitcher } from './components/LanguageSwitcher.tsx'
 import { useTranslation } from 'react-i18next'
 
-const Result = lazy(() => import('./components/Result.tsx'));
+const Result = lazy(() => import('./components/Result.tsx'))
 
 export const App = () => {
     const { i18n } = useTranslation()
     const [path, setPath] = useState(['q1'])
+    const quizFlow = useQuizData(i18n.language)
 
     const currentId = path[path.length - 1]
     const node = quizFlow[currentId]

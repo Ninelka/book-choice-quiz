@@ -1,4 +1,5 @@
-import quizFlowData from '../data/quizFlow.json'
+import quizFlowEnData from '../data/quizFlow_en.json'
+import { useEffect, useState } from 'react'
 
 export type QuizOption = {
     label: string
@@ -19,4 +20,20 @@ export type QuizNode = {
     options?: QuizOption[]
 }
 
-export const quizFlow: Record<string, QuizNode> = quizFlowData
+type QuizFlowData = Record<string, QuizNode>
+
+export const useQuizData = (lang: string) => {
+    const [data, setData] = useState<QuizFlowData>(quizFlowEnData)
+
+    useEffect(() => {
+        if (lang === 'en') {
+            setData(quizFlowEnData)
+        } else if (lang === 'ru') {
+            import('../data/quizFlow_ru.json').then((module) => {
+                setData(module.default)
+            })
+        }
+    }, [lang])
+
+    return data
+}
