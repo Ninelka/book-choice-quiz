@@ -27,16 +27,11 @@ jobs:
 
       - name: 🔍 Lint with ESLint
         run: |
-          npm run lint -- --fix
+          npm run lint
 
       - name: 🎨 Format with Prettier
         run: |
-          npx prettier --write .
-
-      - name: 🚧 Commit lint/format fixes (if any)
-        uses: stefanzweifel/git-auto-commit-action@v5
-        with:
-          commit_message: "ci: eslint and prettier autofix"
+          npm run format:check
 
       - name: 🛠️ Build Vite App
         run: npm run build
