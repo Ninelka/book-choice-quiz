@@ -31,7 +31,7 @@ jobs:
 
             - name: 🎨 Format with Prettier
               run: |
-                  npm run format:check
+                  npm run prettier
 
             - name: 🛠️ Build Vite App
               run: npm run build
