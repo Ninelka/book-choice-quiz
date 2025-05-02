@@ -8,8 +8,6 @@ This project transforms NPR’s classic **Top 100 Sci-Fi & Fantasy Books Flowcha
 
 ## 🧩 The Original Flowchart
 
-It all started with this image:
-
 ![NPR Top 100 SF & Fantasy Flowchart](public/NPRFlowchart.jpg)
 
 ---
