@@ -19,7 +19,7 @@ const Result = ({ id, result, onClick, onReset }: ResultProps) => {
             <h2 className="text-xl font-bold mb-4">{t('result')}</h2>
             <img
                 className="bg-no-repeat bg-center w-auto h-100 object-contain rounded-xl mb-4"
-                src={`/public/images/${id}.jpg`}
+                src={`${import.meta.env.BASE_URL}images/${id}.jpg`}
                 alt={title}
             />
             <h3 className="text-lg font-semibold">{title}</h3>
