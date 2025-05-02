@@ -38,12 +38,12 @@ jobs:
                   npm run prettier
 
             - name: 🛠️ Build Vite App
-              uses: actions/jekyll-build-pages@v1
-              with:
-                  source: ./
-                  destination: ./_site
-            - name: Upload artifact
+              run: npm run build
+
+            - name: 📦 Upload build output
               uses: actions/upload-pages-artifact@v3
+              with:
+                  path: ./dist
 
     # Deployment job
     deploy:
