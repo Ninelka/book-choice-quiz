@@ -1,7 +1,7 @@
 import axios from 'axios'
 import * as fs from 'node:fs'
 import * as path from 'node:path'
-import books from '../src/data/books_en.json'
+import books from '../public/data/books_en.json'
 
 const __dirname = path.resolve('../')
 
