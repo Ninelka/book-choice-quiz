@@ -1,5 +1,6 @@
 import { QuizResult } from '../types'
 import { Button } from './Button.tsx'
+import { useTranslation } from 'react-i18next'
 
 interface ResultProps {
     id: string
@@ -9,11 +10,13 @@ interface ResultProps {
 }
 
 export const Result = ({ id, result, onClick, onReset }: ResultProps) => {
+    const { t } = useTranslation();
+
     const { title, author, options } = result
 
     return (
         <>
-            <h2 className="text-xl font-bold mb-4">Результат:</h2>
+            <h2 className="text-xl font-bold mb-4">{t('result')}</h2>
             <img
                 className="bg-no-repeat bg-center w-auto h-100 object-contain rounded-xl mb-4"
                 src={`/public/images/${id}.jpg`}
@@ -32,7 +35,7 @@ export const Result = ({ id, result, onClick, onReset }: ResultProps) => {
                 onClick={onReset}
                 className="mt-6 bg-green-500 hover:bg-green-600 text-white py-2 px-4 rounded-xl transition cursor-pointer"
             >
-                Пройти снова
+                {t('restart')}
             </button>
         </>
     )

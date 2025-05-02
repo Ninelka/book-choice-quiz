@@ -4,8 +4,11 @@ import { Question } from './components/Question.tsx'
 import { quizFlow } from './types/quiz.ts'
 import { Result } from './components/Result.tsx'
 import { motion, AnimatePresence } from 'framer-motion'
+import { LanguageSwitcher } from './components/LanguageSwitcher.tsx'
+import { useTranslation } from 'react-i18next'
 
 export const App = () => {
+    const { i18n } = useTranslation()
     const [path, setPath] = useState(['q1'])
 
     const currentId = path[path.length - 1]
@@ -20,7 +23,8 @@ export const App = () => {
     }
 
     return (
-        <div className="flex items-center justify-center min-h-screen bg-gray-50 p-4">
+        <div className="relative flex items-center justify-center min-h-screen bg-gray-50 p-4">
+            <LanguageSwitcher />
             <div className="text-center w-full max-w-md bg-white rounded-2xl shadow-xl p-6 relative overflow-hidden">
                 <AnimatePresence mode="wait">
                     <motion.div
