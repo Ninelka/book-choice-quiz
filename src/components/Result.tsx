@@ -9,7 +9,7 @@ interface ResultProps {
     onClick: (id: string) => void
 }
 
-export const Result = ({ id, result, onClick, onReset }: ResultProps) => {
+const Result = ({ id, result, onClick, onReset }: ResultProps) => {
     const { t } = useTranslation();
 
     const { title, author, options } = result
@@ -40,3 +40,5 @@ export const Result = ({ id, result, onClick, onReset }: ResultProps) => {
         </>
     )
 }
+
+export default Result

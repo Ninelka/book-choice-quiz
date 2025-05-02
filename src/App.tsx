@@ -1,4 +1,4 @@
-import { useState } from 'react'
+import { lazy, useState } from 'react'
 
 import { Question } from './components/Question.tsx'
 import { quizFlow } from './types/quiz.ts'
@@ -6,6 +6,8 @@ import { Result } from './components/Result.tsx'
 import { motion, AnimatePresence } from 'framer-motion'
 import { LanguageSwitcher } from './components/LanguageSwitcher.tsx'
 import { useTranslation } from 'react-i18next'
+
+const Result = lazy(() => import('./components/Result.tsx'));
 
 export const App = () => {
     const { i18n } = useTranslation()
