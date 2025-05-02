@@ -1,4 +1,4 @@
-import quizFlowEnData from '../../public/data/quizFlow_en.json'
+import quizFlowEnData from '../data/quizFlow_en.json'
 import { useEffect, useState } from 'react'
 
 export type QuizOption = {
@@ -29,7 +29,7 @@ export const useQuizData = (lang: string) => {
         if (lang === 'en') {
             setData(quizFlowEnData)
         } else if (lang === 'ru') {
-            import('../../public/data/quizFlow_ru.json').then((module) => {
+            import('../data/quizFlow_ru.json').then((module) => {
                 setData(module.default)
             })
         }
